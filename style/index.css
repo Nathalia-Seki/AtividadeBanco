@@ -1,0 +1,26 @@
+:root{
+    --corPrimaria : #ba2d2d; 
+    --corSecundaria : ;
+    --black : black;
+    --branco : #ecebeb;
+    --fontePrincipal : 'Trebuchet MS';
+    --tamanhoFonteTitulo : 24pt;
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header , footer{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    background-color: var(--corPrimaria);
+    color: var(--branco);
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
