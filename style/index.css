@@ -19,7 +19,6 @@ header , footer{
     width: 100%;
     padding: 5px 0px;
     display: flex;
-    align-items: center;
     background-color: var(--corPrimaria);
     color: var(--branco);
 }
@@ -31,6 +30,7 @@ a{
 
 header{
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
@@ -139,13 +139,61 @@ header ul{
     color: var(--branco);
 }
 
+#sejaCliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
 #imgClienteManeiras{
     width: 100%;
-    background-color: aqua;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .imagens{
     width: 30%;
     height: 400px;
+    border-radius: 10px;    
+}
+
+#horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 80%;
+    margin: 40px 55px;
+    box-shadow: 10px 10px rgb(187, 187, 187);
+    border-radius: 5px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
     
+    padding: 15px;
+    text-align: center;
+}
+
+th{
+    color: var(--branco);
+    background-color: var(--corPrimaria);
+}
+
+td{
+    border: 1px solid gray;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
 }
